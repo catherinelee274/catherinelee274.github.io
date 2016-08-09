@@ -1,8 +1,136 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1> Hello World! </h1>
-      <p> I'm hosted with Github Pages.</p>
-      <p> Website to be updated soon...</p>
-  </body>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8" />
+		<meta name="author" content="Script Tutorials" />
+		<title>Bootstrap one-page template with Parallax effect | Script Tutorials</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- attach CSS styles -->
+		<link href="css/style.css" rel="stylesheet" />
+		
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<style>
+			.parallax { 
+			/* The image used */
+			background-image: url("background.jpg");
+			
+			/* Set a specific height */
+			height: 500px; 
+			
+			/* Create the parallax scrolling effect */
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			}
+		</style>
+		
+		<!-- Container element -->
+		<div class="parallax"></div>
+	</head>
+	<body>
+		<!-- navigation panel -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Catherine Lee</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="navbar-collapse-main">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About me</a></li>
+						
+						<li><a href="#information">Information</a></li>
+						<li><a href="#google_map">Contact</a></li>
+						
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		
+		<!-- first section - Home -->
+		<div id="home" class="home">
+			<div class="text-vcenter">
+				<h1>Hello World</h1>
+				<h3>This is bootstrap-based layout</h3>
+				<a href="#about" class="btn btn-default btn-lg">Continue</a>
+			</div>
+		</div>
+		<!-- /first section -->
+		<!-- second section - About -->
+		<div id="about" class="pad-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="images/logo.png" alt="" />
+					</div>
+					<div class="col-sm-6 text-center">
+						<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /second section -->
+		<!-- fourth section - Information -->
+		<div id="information" class="pad-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">Additional information</h2>
+							</div>
+							<div class="panel-body lead">
+								Lorem ipsum dolor sit amet,ultricies mauris mi a metus. Phanas rhon. 
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">Additional information</h2>
+							</div>
+							<div class="panel-body lead">
+								hellooooo
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /fourth section -->
+		
+	</head>
+	
+	
+	
+	
+	<!-- attach JavaScripts -->
+	
+	
+	
+</body>
 </html>
