@@ -15,6 +15,8 @@ Future Plans
 
 [ ] Create Unique Blog
 
+[ ] Mobile Support
+
 
 REMINDER
 
