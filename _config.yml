@@ -3,6 +3,6 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 description: > # this means to ignore newlines until "baseurl:"
   Exploring coding, writing, and life
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  catherinelee274
