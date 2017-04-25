@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pixyllPost
 title: "Catherine Launches Site"
 date: 2017-04-06
 ---
