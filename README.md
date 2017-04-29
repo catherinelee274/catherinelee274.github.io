@@ -5,7 +5,7 @@ Made with Html/CSS and Jekyll
 
 Pressing Issues:
 
-[ ] Make Jekyll Blog
+[x] Make Jekyll Blog
 
 [ ] Fix Landing Page colors
 
