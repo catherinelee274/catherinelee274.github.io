@@ -13,7 +13,7 @@ title: Catherine's Blog
 {% assign posts_count = (paginator.posts | size) %}
 
 <div class="home">
-  {% if posts_count > 0 %}
+ <!-- {% if posts_count > 0 %} -->
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
@@ -32,5 +32,5 @@ title: Catherine's Blog
 
     {% include pagination.html %}
   
-  {% endif %}
+  <!--{% endif %}-->
 </div>
