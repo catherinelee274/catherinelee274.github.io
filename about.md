@@ -1,5 +1,5 @@
 ---
-layout: pixyllPage
+layout: page
 title: About
 permalink: /blog/about/
 tags: about
