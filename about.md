@@ -5,7 +5,7 @@ permalink: /blog/about/
 tags: about
 ---
 
-[Catherine Lee](catherinelee274.github.io)
+[Catherine Lee](https://catherinelee274.github.io)
 
 Exploring coding, writing, and life
 
