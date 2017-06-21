@@ -112,12 +112,7 @@ footer .glyphicon:hover {
 	top:20%;
 	border-radius: 25px;
 }
-.icon-box
-{
-	text-align: center;
-	color: white;
-	margin: auto;
-}
+
 @font-face {
 	font-family: "open";
 	font-style: normal;
