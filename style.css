@@ -6,12 +6,17 @@
 }
 .content-area
 {
-	/*background-color:red;*/
-	background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1)); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
-	position:absolute;
+	background-color:#bea0ad;
+	/*
+	background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1));
+	background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1));
+	background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(255,0,0,1));
+	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+	*/
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
 
 	/*width:60%;
 	height:60%;
@@ -19,32 +24,41 @@
 	top:20%;
 	border-radius: 25px;*/
 
-	margin: auto;
-  width: 60%;
+  width: 50%;
 	height:60%;
-  position: relative;
+	border-radius: 25px;
+	text-align: center;
+
+	/*
+	margin: auto;
+	position:absolute;
+	margin-top: 3%;
   text-align: center;
 	border-radius: 25px;
+	left:20%;
+	*/
+
   /* page specific formatting */
-  margin-top: 3%;
-  font-size: 1.5em;
-  /* self portrait styling */
+  font-size: 1em;
 }
-.content-area .icons
+.icons
 {
-	margin-bottom: 0.25em;
-	margin-top: 0.25em;
-	margin: auto;
+
+
 }
-.ontent-area .icons i {
-  padding-right: 0.2em;
+.content-area .icons i {
+	/* space between icons */
+  padding-right: 1.5em;
 }
+
 body {
-	background-color: #0000ff;
+	/*background-color: #0000ff;*/
+	background-color: #bee0ed;
 }
 .fly-in-text {
 	list-style: none;
-	position: absolute;
+	/*position: absolute;*/
+	position:relative;
 	left: 50%;
 	top: 50%;
 	transform: translateX(-50%) translateY(-50%);
@@ -55,7 +69,7 @@ body {
 	font-family: Open Sans, Arial;
 	font-weight: 300;
 	font-size: 4em;
-	color: #fff;
+	color: #bee0ed;
 	opacity: 1;
 	transition: all 2.5s ease;
 }
