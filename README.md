@@ -9,6 +9,8 @@ Pressing Issues:
 
 [ ] Fix Landing Page colors
 
+[ ] delaunay triangulation
+
 Future Plans
 
 [ ] Create Unique Resume Page
