@@ -8,12 +8,13 @@ var debug = false;
 function setup() {
   //make canvas adjust to screen
   createCanvas(1680 , 1080);
-
+//i think this is where lines are added
   for (var x = 1; x <= width/d -1; x += d) {
     for (var y = 1; y <= height/d -1; y += d) {
       vec.push(new Vec(x, y));
     }
   }
+  //where points are added ?
   for (var i = 0; i <= 15; i++) {
     p.push(new Particle());
   }
