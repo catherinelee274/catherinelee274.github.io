@@ -7,7 +7,7 @@ Pressing Issues:
 
 [x] Make Jekyll Blog
 
-[ ] Fix Landing Page colors
+[x] Fix Landing Page colors
 
 [ ] delaunay triangulation
 
