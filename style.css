@@ -77,8 +77,8 @@ body {
 }
 .img-circle {
 	border-radius: 50%;
-	height:200px;
-	width:200px;
+	height:50%;
+	width:50%;
 	left:0;
 
 }
