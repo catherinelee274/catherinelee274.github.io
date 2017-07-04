@@ -3,7 +3,7 @@ Personal/Portfolio Website
 
 Made with Html/CSS and Jekyll
 
-Pressing Issues:
+# Pressing Issues:
 
 [x] Make Jekyll Blog
 
