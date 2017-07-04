@@ -11,7 +11,7 @@ Pressing Issues:
 
 [ ] delaunay triangulation
 
-Future Plans
+#Future Plans
 
 [ ] Create Unique Resume Page
 
