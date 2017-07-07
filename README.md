@@ -3,7 +3,7 @@ Personal/Portfolio Website
 
 Made with Html/CSS and Jekyll
 
-Pressing Issues:
+# Pressing Issues:
 
 [x] Make Jekyll Blog
 
@@ -11,7 +11,7 @@ Pressing Issues:
 
 [ ] delaunay triangulation
 
-Future Plans
+# Future Plans
 
 [ ] Create Unique Resume Page
 
