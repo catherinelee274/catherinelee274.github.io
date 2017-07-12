@@ -9,7 +9,11 @@ Made with Html/CSS and Jekyll
 
 [x] Fix Landing Page colors
 
-[ ] delaunay triangulation
+[x] delaunay triangulation
+
+[ ] finish blog post
+
+[ ] hover with icons
 
 # Future Plans
 
