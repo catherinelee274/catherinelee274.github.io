@@ -11,7 +11,7 @@ Made with Html/CSS and Jekyll
 
 [x] delaunay triangulation
 
-[ ] finish blog post
+[?] finish blog post
 
 [ ] hover with icons
 
