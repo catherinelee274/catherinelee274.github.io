@@ -15,7 +15,7 @@ Made with Html/CSS and Jekyll
 
 [ ] hover with icons
 
-[ ] fix link on the blog page (one that says catherinelee274.github.io on the left) 
+[x] fix link on the blog page (one that says catherinelee274.github.io on the left) 
 
 # Future Plans
 
