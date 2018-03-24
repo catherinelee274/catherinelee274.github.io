@@ -5,55 +5,61 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- font awesome icons -->
-        <script src="https://use.fontawesome.com/c47cc0ba7e.js"></script>
+        <!-- link to Typed.js -->
+        <script src = "lib/typed.js"></script>
+        <script src = "lib/typed.min.js"></script>
+
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!--link to my own script-->
+        <script src = "main.js"></script>
 
         <!-- link to CSS sheet -->
         <link rel = "stylesheet" href = "style.css">
+
+        <!-- link to vs.js -->
+        <script type="text/javascript" src="lib/vis.min.js"></script>
+        <link href="lib/vis.min.css" rel="stylesheet" type="text/css"/>
+
     </head>
+
     <body>
-      <div id="particles-js"></div>
-      <script src="particles.js"></script>
-      <script src="app.js"></script>
 
-      <div class="content-area">
-        <center><img class = "img-circle" src = "headshot.jpg"></center>
-        <ul class="fly-in-text hidden">
-            <li>W</li>
-            <li>E</li>
-            <li>L</li>
-            <li>C</li>
-            <li>O</li>
-            <li>M</li>
-            <li>E</li>
-        </ul>
-         <div class = "icons">
-            <a href="https://github.com/catherinelee274/catherinelee274.github.io"><i class="fa fa-file-code-o fa-5x" aria-hidden="true"></i></a>
-            <a href="https://github.com/catherinelee274"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
-            <a href="http://catherinelee274.github.io/blog/"><i class="fa fa-file-text fa-5x" aria-hidden="true"></i></a>
-             <a href = "https://www.linkedin.com/in/catherinelee274/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
 
-          </div>
+      <div class="center-menu-bar">
+        <center><img class = "img-square" src = "square.jpg"></center>
 
+        <span class = "name"></span>
+        <div class = "buttons">
+          <a href="https://github.com/catherinelee274" class="button">projects |</a>
+          <a href="http://catherinelee274.github.io/blog/" class="button">blog |</a>
+
+          <a href="#" class="button">github |</a>
+          <a href="#" class="button">linkedin</a
+        </div>
 
       </div>
 
-      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <script src="particles.min.js"></script>
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script type="text/javascript">
 
-            $(function() {
-
-                setTimeout(function() {
-                    $('.fly-in-text').removeClass('hidden');
-                }, 500);
-
-            })();
-
-        </script>
 
     </body>
+
+
+    <script>
+      var options = {
+        strings: [ "Catherine Lee."],
+        typeSpeed: 40
+
+      }
+
+      var typed = new Typed(".name", options);
+
+
+    </script>
+
+
 </html>
