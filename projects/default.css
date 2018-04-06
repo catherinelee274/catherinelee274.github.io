@@ -139,3 +139,6 @@ a:active {
 	}
 
 }
+a:hover{
+	opacity: 0.5;
+}
