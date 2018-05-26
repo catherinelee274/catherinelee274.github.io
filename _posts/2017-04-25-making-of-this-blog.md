@@ -14,5 +14,6 @@ Simple enough, Github provides a free url using your Github Username and it is g
 Later on I am planning to add square tiles of all the projects I've worked on. 
 
 # Folder Organization 
+If you want a certain page to have a certain name.. Ex: if wanted some file called snowflake, make a folder called snowflake and name the index.html file anything and it will show up as ..../snowflake.html
 
 # Hosting with Services other than Github Pages
