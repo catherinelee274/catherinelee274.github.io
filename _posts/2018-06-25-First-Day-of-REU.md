@@ -6,3 +6,5 @@ published: true
 ---
  
 Was nervous, but everyone was really chill. Even memed my mentor. 
+
+Good comraderie with mangrove group... 
