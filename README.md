@@ -25,3 +25,5 @@ Made with Html/CSS and Jekyll
 
 [ ] Mobile Support
 
+[ ] Make one page
+
