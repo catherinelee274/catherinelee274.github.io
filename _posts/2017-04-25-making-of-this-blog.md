@@ -16,4 +16,6 @@ Later on I am planning to add square tiles of all the projects I've worked on.
 # Folder Organization 
 If you want a certain page to have a certain name.. Ex: if wanted some file called snowflake, make a folder called snowflake and name the index.html file anything and it will show up as ..../snowflake.html
 
-# Hosting with Services other than Github Pages
+# Integrating with a template
+
+Pixyll is a Jekyll theme that was designed by John Otander. I fell in love with the minimalist style and I knew I wanted my blog to look like that. However, I only wanted the theme to be for my side page, which turned out to be more challenging than I imagined. The template was in Sass and being able to understand it involved reading up on documentation. 
