@@ -16,5 +16,5 @@ The tricky part with recursion is that, especially in a multifaceted project lik
 
 Some programming assignments don't require convoluted and complex structures. I could've solved this entire problem with just a 2D array and recursion. An arrayList only complicated things and made debugging more of a pain. Like with FizzBuzz, sometimes you need to do things the brutal way.
 
-Also, PLAN before you code. I treated coding like I did writing (diving right in without a plan) which explains why I am bad at both. 
+Also, PLAN before you code. I treated coding like I did writing (diving right in without a plan) which explains why I am bad at both. Okay, perhaps not bad, but they are subject areas with which I need much improvement.
 
