@@ -12,10 +12,15 @@ Stack: Node JS, Express
 # Challenges
 
 Never touched node js. Learning it on the fly was challenging. Especially the backend because i never really understood http protocols, but the mentors there at jp morgan really took the time to explain to me how they worked. Get is for rendering the look of the page. Post is for the actual (expand on this and read more articles)
+
 Get vs post
+
 Figuring out why redirects didn’t work 
+
 Json to csv.. Then csv to json
+
 Not necessarily the best strategy 
+
 Choosing this over a relational database was a bad idea
 
 
