@@ -28,9 +28,13 @@ Choosing this over a relational database was a bad idea
 # What I can take away from my experience/ things i learned
 
 Lastly, learn IOS/Android, because apps that most non profits want are platforms where it is used
+
 Ask powerful questions!!!! To elicit better answers
+
 Need to learn how to be more approachable
+
 Use gitignore to make sure someone doesn’t steal your api keys
+
 Always be aware of how secure your product is (is it protected against xss, etc) 
 
 # Things we couldve done if we had more time
