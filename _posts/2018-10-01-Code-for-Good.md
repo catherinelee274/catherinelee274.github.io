@@ -40,14 +40,23 @@ Always be aware of how secure your product is (is it protected against xss, etc)
 # Things we couldve done if we had more time
 
 Improve ui/ux
+
 Use a relational database to store our data 
+
 Robust back end point system gamification that WORKS
+
 Have the donate page and need page communicate with each other
+
 Our idea: (kinda like how uber deals with rush hour)... depending on if we have an excess of one item and lack of another. The one we have low donations in gets a temporary point increase .
+
 Enable purchases
+
 Tree to show point progress
+
 Redeemable gifts based on points
+
 Facebook login as an option and also as a way so that it fills in the options for the registration
+
 QR code scanner… when qr code is scanned, increment points
 
 
