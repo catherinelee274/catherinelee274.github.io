@@ -31,7 +31,7 @@
   **************************
   */
 
-  #portfolio-sidebar{
+  /* #portfolio-sidebar{
 
     width: 710px !important;
     padding-right: 320px;
@@ -44,7 +44,7 @@
   }
 
   .grid-hover, li.grid-item, li.grid-item img{
-    width:312px;
+    width:312px; */
   }
 
 
@@ -85,7 +85,7 @@
   **************************
   */
 
-  #portfolio-sidebar{
+  /* #portfolio-sidebar{
 
     width: 580px !important;
     padding-right: 250px;
@@ -99,7 +99,7 @@
 
   .grid-hover, li.grid-item, li.grid-item img{
     width:246px;
-  }
+  } */
 
 }
 
@@ -130,21 +130,21 @@
   .prev-next{
     max-width:600px;
   }
-  
+
   .home-sidebar{
     display:none;
   }
-  
+
   ul.header-nav{
     width:50%;
-  
+
   }
-  
+
   header li > a{
     padding-right: 15px;
     padding-left: 15px;
   }
- 
+
 
 
   /*
@@ -202,29 +202,29 @@
   .prev-next{
     max-width:400px;
   }
-  
+
   .home-sidebar{
     display:none;
   }
-  
+
   ul.header-nav{
     width:50%;
-  
+
   }
-  
+
   header li > a{
     padding-right: 15px;
     padding-left: 15px;
   }
- 
+
   .one-column, .two-column{
     width:100%;
   }
-  
+
   .contact-one, .contact-two, .contact-three{
     width:100%;
   }
-  
+
   textarea{
     height:250px;
   }
@@ -232,15 +232,15 @@
   input.button-submit{
     margin-bottom:100px;
   }
-  
+
   .logo, .menu-index{
     display:block;
   }
 
   header.boxed{
     display:none !important;
-  }  
-  
+  }
+
   #footer-left{text-align:center;}
 
   /*
@@ -249,7 +249,7 @@
   **************************
   */
 
-  #portfolio-sidebar{
+  /* #portfolio-sidebar{
 
     width:430px !important;
     padding-right: 0;
@@ -261,7 +261,7 @@
 
   .grid-hover, li.grid-item, li.grid-item img{
     width:400px;
-  }
+  } */
 
 }
 
@@ -280,7 +280,7 @@
   .footer-margin{
     width:280px;
   }
-  
+
   .footer-margin .copyright{line-height:40px;}
 
   .content .text-intro h1, .content .text-intro p{
@@ -291,7 +291,7 @@
     width:280px;
     display:block !important;
   }
-  
+
   .menu-index{
     display:block !important;
   }
@@ -299,23 +299,23 @@
   .prev-next{
     max-width:280px;
   }
-  
+
   .home-sidebar{
     display:none;
   }
- 
+
   .one-column, .two-column{
     width:100%;
   }
-  
+
   .contact-one, .contact-two, .contact-three{
     width:100%;
   }
-  
+
   textarea{
     height:250px;
   }
-  
+
   input, textarea{
     padding:0;
   }
@@ -323,15 +323,15 @@
   input.button-submit{
     margin-bottom:100px;
   }
-  
+
   header.boxed{
     display:none !important;
-  }  
-  
+  }
+
   #footer-left{text-align:center;}
-  
+
   .content .text-intro h1{
-    font-size:33px; 
+    font-size:33px;
     line-height:50px;
   }
 
@@ -341,7 +341,7 @@
   **************************
   */
 
-  #portfolio-sidebar{
+  /* #portfolio-sidebar{
 
     width:310px !important;
     padding-right: 0;
@@ -353,6 +353,6 @@
 
   .grid-hover, li.grid-item, li.grid-item img{
     width:280px;
-  }
+  } */
 
 }

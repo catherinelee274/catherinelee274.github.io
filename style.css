@@ -1,3 +1,19 @@
+/*upper left */
+.title {
+	position: relative;
+	padding: 2rem 0 0 2rem;
+	margin: 0;
+	font-size: 1.15rem;
+	z-index: 1000;
+	grid-area: title;
+	font-weight: bold;
+  font-family: Futura, "futura-pt", sans-serif;
+
+
+}
+
+
+
 #typed{
 		font-family: Helvetica;
 
@@ -26,50 +42,42 @@
 body{
 	/* line-height:1.6; */
 	/* color:#444; */
-	font-size:400%;
+	/* font-size:400%; */
 	/* padding:0 10px; */
 
 }
 .center-menu-box
 {
-	position: fixed;
-	/* display: block ; */
-	/* margin-top: 20%;
-	margin-left: 40%; */
-	top: 40%;
-	left: 30%;
-	/*margin-top: -50px;
-  margin-left: -100px;*/
+	margin-top: 100px;
+	font-size:200%;
+	text-align:center;
 
 }
 .buttons
 {
 
-	display: flex;
-	justify-content: center;
-	font-style: italic;
-	font-size: 60%;
-	position: fixed;
+   margin-right:5px;
 }
 
-.right-menu-box
+/* .right-menu-box
 {
 	width: 50%;
 	height: 50%;
 	float: right;
-}
-.bottom{
+} */
+
+/* .bottom{
 	position: relative;
 	top:0;
 	left:0;
 
-}
-.top
+} */
+/* .top
 {
 	position: absolute;
 	top: 60px;
 	left: 1000px;
-}
+} */
 /* .img-square {
 	width:20%;
 	 height:20%;
@@ -79,17 +87,18 @@ body{
 .name
 {
 	font-weight: bold;
-	#font-size:100%;
 	color:#000000;
 
 }
 .button {
 	color: #000000;
+	display:inline-block;
 }
 .button:hover{
 	color:#000000;
 
 }
+
 /* Effect: Brackets */
 .buttons a::before,
 .buttons a::after {
@@ -138,5 +147,9 @@ body{
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
 	text-decoration:none;
+
+}
+p{
+	font-size:50%;
 
 }
