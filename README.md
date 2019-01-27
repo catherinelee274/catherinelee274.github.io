@@ -26,3 +26,5 @@ Made with Html/CSS and Jekyll
 [x] Mobile Support
 
 [ ] Make one page
+
+[ ] Vertical And Continuous Mask Display & Hide https://medium.com/@uiuxlab/10-page-transition-effects-trends-for-web-developer-in-2018-c07df6d1f747
