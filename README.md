@@ -29,4 +29,4 @@ Made with Html/CSS, Sass and Jekyll
 
 [ ] make buttons have shadows
 
-[ ] consistent fooder
+[ ] consistent footer with my links (github, linkedin, etc)

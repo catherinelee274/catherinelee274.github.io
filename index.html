@@ -45,7 +45,7 @@
         <!-- <p> Student at the University of California, Santa Cruz pursuing Computer Science. Interest in Aritificial Intelligence, Machine Learning, and Deep Learning </p>  -->
         <div class = "buttons">
             <ul>
-            <span><a href="https://catherinelee274.github.io/projects" class="button" style="text-decoration:none;">projects</a></span>
+            <span><a href="#please_scroll_down" class="button" style="text-decoration:none;">projects</a></span>
             <span><a href="http://catherinelee274.github.io/blog/" class="button" style="text-decoration:none;">blog</a></span>
             <span><a href="https://github.com/catherinelee274" class="button" style="text-decoration:none;">github</a></span>
             <span><a href="https://www.linkedin.com/in/catherinelee274/" class="button" style="text-decoration:none;">linkedin</a></span>
@@ -63,19 +63,43 @@
       </section> -->
 
 
-      <div class="project-grid" >
+      <div class="project-grid" id = "please_scroll_down">
           <div>
+              <p>PictRNNary: a recurrent neural network that plays pictionarry</p>
             <a href="https://github.com/DevinMui/pictionary"><img src="media/pictrnnary.jpg"/></a>
-            
           </div>
-          <div><a href="https://slugbotics.com/"><img src="../media/slugbotics.png"/></a></div>
-          <div><a href="http://f1tenth.org/"><img src="../media/f1tenth.png"/></a></div>
-          <div><a href="https://github.com/Delaware2018/team-7"><img src="../media/codeforgood.jpg"/></a></div>
-          <div><a href="http://e4e-dev.ucsd.edu/coastal-conservation/mangrove-monitoring-reu-trip-july-2018"><img src="../media/mangrove.jpg"/></a></div>
-          <div><a href="https://github.com/catherinelee274/CMPS12B-Data-Structures"><img src="../media/queens.jpg"/></a></div>
+          <div>
+              <p>UCSC Robotics: underwater vehicle control</p>
+              <p>C, Python, Arduino, Raspberry Pi</p>
+            <a href="https://slugbotics.com/"><img src="../media/slugbotics.png"/></a>
+          </div>
+          <div>
+            <p>F1tenth: Autonomous Mini Race Car Team</p>
+            <p>ROS, Gazebo Visualization, Lidar, reinforcement learning</p>
+            <a href="http://f1tenth.org/"><img src="../media/f1tenth.png"/></a>
+          </div>
+          <div>
+              <p>REU at Qualcomm Institute/E4E</p>
+              <p>TensorFlow, Docker</p>
+              <a href="http://e4e-dev.ucsd.edu/coastal-conservation/mangrove-monitoring-reu-trip-july-2018"><img src="../media/mangrove.jpg"/></a>
+            </div>
+          <div>
+            <p>JP Morgan Code for Good: GoodWill Donor Engagement</p>
+            <p>Javascript, NodeJS, Express, HTML&CSS</p>
+            <a href="https://github.com/Delaware2018/team-7"><img src="../media/codeforgood.jpg"/></a>
+          </div>
+          
+          <div>
+            <p>CMPS12B: Data Structures Class (Chess Projects in Java)</p>
+            <a href="https://github.com/catherinelee274/CMPS12B-Data-Structures"><img src="../media/queens.jpg"/></a>
+          </div>
 				  <!-- need f1/10, yu zhang lab, pictrnnary, code4good -->
 
-				  <div><a href="http://projects.girlswhocode.com/project/pomadore/"><img src="../media/pomadore.jpg"></a></div> 
+				  <div>
+            <p>Adobe - Girls Who Code Final Project</p>
+            <p>Html/CSS, Javascript</p>
+            <a href="http://projects.girlswhocode.com/project/pomadore/"><img src="../media/pomadore.jpg">
+            </a></div> 
       </div>
 
 
@@ -94,6 +118,9 @@
 
 
     <script>
+
+
+
     $(".body").delay(1000).animate({"opacity": "1"}, 700);
 
       var options = {
@@ -111,6 +138,7 @@
         $('body').fadeIn(500);
 
       });
+
 
     </script>
 
