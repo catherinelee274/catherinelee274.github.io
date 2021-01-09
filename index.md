@@ -1,10 +1,3 @@
----
-title: "Hi CSE 110"
-date: "2021-01-08"
-draft: false
-path: "/blog/cse110"
----
-
 # Catherine Lee
 
 ![Me](./profpic.jpg)
