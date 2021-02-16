@@ -37,7 +37,6 @@ LinkedIn: [linkedin.com/in/catherinelee274](https://www.linkedin.com/in/catherin
 
 
 ## Employment
-* Summer 2021: Software Engineer Intern @ Snap on the **Perception Team**
 * Summer 2020: Machine Learning Intern @ Adobe
 * Summer 2019: Software Developer Intern @ Amazon
 * Summer 2018: Research Intern @ Research Experience for Undergraduates (REU)
