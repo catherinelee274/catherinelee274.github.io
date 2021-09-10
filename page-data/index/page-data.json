@@ -9,8 +9,9 @@
                         "text": "Catherine Lee"
                     },
                     "description": {
-                        "html": "<p>Software Engineer and Machine Learning Engineer</p><p><span  class=\"grey\">San Francisco, CA</span></p><p><span  class=\"grey\"></span></p>"
+                        "html": "<a target=\"_blank\" rel=\"noopener\" href=\"https://www.linkedin.com/in/~catherine\"><p>Linkedin</p>    <a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/catherinelee274\"><p>Github</p><p><span  class=\"grey\">San Francisco, CA</span></p><p><span  class=\"grey\"></span></p>"
                     },
+                   
                     "body": [
                         {
                             "__typename": "PrismicHomepageBodySection",
