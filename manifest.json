@@ -1,4 +1,8 @@
 {
   "main.js": "render-page.js",
-  "main.js.map": "render-page.js.map"
+  "main.js.map": "render-page.js.map",
+  "static/adobe_smol.png": "static/adobe_smol-575a9fd5516c1ba2e77a58c1406d20e3.png",
+  "static/amazon_smol.png": "static/amazon_smol-42e7757f4e7edac18f52fe07030a725d.png",
+  "static/default.jpg": "static/default-bc7ceaf7925f5b47adee06511c3120ee.jpg",
+  "static/snap.jpeg": "static/snap-ba058ac0a562aa7f921465612731a1c6.jpeg"
 }
