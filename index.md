@@ -2,32 +2,19 @@
 
 ![Me](./profpic.jpg)
 
-> Hello world
-
-or should i say...
-
-`cout << 'Hello World' << ' ' `
-
-Website: [catherinelee274.github.io](https://catherinelee274.github.io/)
+[catherinelee274.github.io](https://catherinelee274.github.io/)
 
 
-LinkedIn: [linkedin.com/in/catherinelee274](https://www.linkedin.com/in/catherinelee274/)
+[Linkedin](https://www.linkedin.com/in/catherinelee274/)
 
-[Link to another blog post (relative link)](post-1.md)
+[Devpost](https://devpost.com/catherinelee)
  
 <!-- ## Skills and technology -->
 
-<!-- <table>
-<tr><td>Languages</td><td><strong>JavaScript</strong>, Python, Perl, C, Emacs lisp, bash, some Scala and Elixir</td></tr>
-<tr><td>Libs & frameworks</td><td><strong>Ember</strong>, <strong>React</strong>, <strong>Node.js</strong>, <strong>Vanilla JS</strong>, CanJS, ExtJS/Sencha, JQuery</td></tr>
-<tr><td>Web</td><td>HTML5, CSS3, ES2015+</td></tr>
-<tr><td>VCS</td><td><strong>git</strong> + github/gitlab, cvs</td></tr>
-<tr><td>Databases</td><td>MySQL, SQLite</td></tr>
-<tr><td>Computer Ethics</td><td>Ethical analysis, expert knowledge of ethics and rationality</td></tr>
-<tr><td>Others</td><td>Expert in logic, diversity-in-tech enthusiast</td></tr>
-</table> -->
+
 ## Highlights
-* *Best Under Construction Hack* @ LAHacks 2020
+* Selected for Google Computer Science Research Program 2021
+* Best Under Construction Hack @ LAHacks 2020
 * Best Data Usability Hack @ PennApps 2019
 * Best Use of Microsoft Azure @ Cal Hacks 5.0 2018
 * One of 38 attendees selected out of 1,000+ applicants to attend Twitter DevelopHer
@@ -37,13 +24,24 @@ LinkedIn: [linkedin.com/in/catherinelee274](https://www.linkedin.com/in/catherin
 
 
 ## Employment
-* Summer 2020: Machine Learning Intern @ Adobe
-* Summer 2019: Software Developer Intern @ Amazon
+* Summer 2021: Software Engineer Intern @ Snapchat Perception
+https://www.theverge.com/2021/8/26/22642017/snapchat-scan-feature-ar-camera-visual-search
+* Summer 2020: Machine Learning Intern @ Adobe Sensei & Search 
+https://www.adobe.com/sensei.html
+* Summer 2019: Software Developer Intern @ Amazon Imaging
+https://www.amazon.jobs/en/teams/imaging-systems
 * Summer 2018: Research Intern @ Research Experience for Undergraduates (REU)
+http://e4e.ucsd.edu/coastal-conservation/mangrove-monitoring-reu-trip-july-2018
+
+## Leadership 
+* ACM AI Co-Founder and Director of Operations
+https://ai.acmucsd.com/ 
+    * Here are some of our events: 
+* CruzHacks Event Director
+https://2019.cruzhacks.com/
 
 
-## Ongoing List of All Projects
-
+## List of All Projects
 * Domain Adaptation for Racial Faces in the Wild (Research)
 * PictRNNary
 * PlaceIt
@@ -51,19 +49,12 @@ LinkedIn: [linkedin.com/in/catherinelee274](https://www.linkedin.com/in/catherin
 * Bikeable
 * Research Recommender
 * Barcelona Accident Prediction
-* Deforestation Detection
+* Deforestation Detection (REU)
 * GoodWill Donor Engagement App (JP Morgan Code for Good)
 * Pomadore (Girls Who Code)
 
+
 ## Education
 
-University of California, ~~Scam Diego~~ San Diego
+University of California, San Diego
 
-## Goals for this Year
-- [ ] hike more
-- [ ] find some way to get more involved in current affairs/politics
-- [ ] listen to more podcasts
-- [x] find internship :p
-
-
-[Reread my thing (aka section link)](#catherine-lee)
