@@ -8,6 +8,8 @@
 [Linkedin](https://www.linkedin.com/in/catherinelee274/)
 
 [Devpost](https://devpost.com/catherinelee)
+
+[Github](https://github.com/catherinelee274)
  
 <!-- ## Skills and technology -->
 
