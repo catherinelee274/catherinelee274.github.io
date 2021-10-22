@@ -36,7 +36,7 @@ http://e4e.ucsd.edu/coastal-conservation/mangrove-monitoring-reu-trip-july-2018
 ## Leadership 
 * ACM AI Co-Founder and Director of Operations
 https://ai.acmucsd.com/ 
-    * Here are some of our events: 
+    * Here are some of our events: https://www.youtube.com/watch?v=Adv7hc7dXsk
 * CruzHacks Event Director
 https://2019.cruzhacks.com/
 
