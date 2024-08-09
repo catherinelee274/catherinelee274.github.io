@@ -22,31 +22,31 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Catherine Lee",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  location: "United States",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
     "ML Eng",
   summary:
     "ML stuff",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://i.imgur.com/aHliVDV.jpeg",
+  personalWebsiteUrl: "https://catherinelee274.github.io",
   contact: {
     email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    tel: "650-745-6064",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/catherinelee274",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/~catherine/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/cat_eye_on",
         icon: XIcon,
       },
     ],
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Stanford University",
-      degree: "Bachelor's Degree in Computer Science, Artificial Intelligence",
+      degree: "Master's Degree in Computer Science, Artificial Intelligence",
       start: "2024",
       end: "Current",
     },
@@ -69,35 +69,35 @@ export const RESUME_DATA = {
     {
       company: "Lamini AI",
       link: "https://film.io",
-      badges: ["Remote"],
+      badges: [],
       title: "Machine Learning Engineer",
       logo: ConsultlyLogo,
       start: "2024",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "Building the LLM platform for engineers to use customized, private models for their data. Building the training and finetuning abilities underneath, for better performing models compared to general-purpose LLMs. Technologies: React, TypeScript, Node.js",
     },
     {
       company: "Google",
       link: "https://parabol.co",
-      badges: ["Remote"],
+      badges: [],
       title: "Software Engineer",
       logo: ParabolLogo,
       start: "2021",
       end: "2024",
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        "YouTube Ads Creative Optimization. Technologies: React, TypeScript, GraphQL",
     },
     {
       company: "Snapchat",
       link: "https://clevertech.biz",
-      badges: ["Remote"],
+      badges: [],
       title: "Software Engineer, Machine Learning Intern",
       logo: ClevertechLogo,
       start: "2015",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Vision Transformers",
     },
     {
       company: "Adobe",
@@ -108,31 +108,33 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2020",
       description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
+        "Explored multi-arm bandit algorithms for content recommendation (\href{https://huazhengwang.github.io/papers/SIGIR16_CoLin_Wu.pdf}{collaborative contextual bandits}) such as LinUCB for personalization and used GloVe embeddings for queries.",
     },
     {
       company: "Amazon",
-      link: "https://www.nokia.com",
+      link: "https://www.amazon.jobs/en/teams/product-imaging",
       badges: [],
       title: "Software Engineer",
       logo: NSNLogo,
       start: "2019",
       end: "2019",
-      description: "Developed and tested software for LTE base stations",
+      description: "Built fullstack application in Java using microservices, API Gateway, AWS Lambda, Kinesis, Cloudformation, DynamoDB, S3, CQRS, Event Sourcing, and Dependency Injection.",
     },
   ],
   skills: [
     "Tensorflow",
-    "Cuda",
+    "CUDA",
+    "Openai Triton",
     "Kubernetes",
     "Docker",
     "Pytorch",
-    "Postgres",
+    "PostgreSQL",
+    "SQL",
     "C++",
   ],
   projects: [
     {
-      title: "Parabol",
+      title: "LLM Alignment",
       techStack: [
         "Full Stack Developer",
         "TypeScript",
@@ -149,7 +151,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Evercast",
+      title: "VLM",
       techStack: [
         "Lead Frontend Developer",
         "TypeScript",
@@ -166,7 +168,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Consultly",
+      title: "LLM Merging",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -183,29 +185,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
+      title: "VLM in Triton",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
       description:
         "Minimalist calendars, habit trackers, and planners generator",
@@ -216,47 +196,65 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Barepapers",
+      title: "Virtual Try On",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Minimalist calendars, habit trackers, and planners generator",
+      logo: Minimal,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "useminimal.com",
+        href: "https://useminimal.com/",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Place.it",
+      techStack: ["Side Project", "Next.js", "Puppeteer"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "Minimalist calendars, habit trackers, and planners generator",
+      logo: Minimal,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "useminimal.com",
+        href: "https://useminimal.com/",
       },
     },
+
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
+      title: "Bikeable",
+      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      description:
+        "Minimalist calendars, habit trackers, and planners generator",
+      logo: Minimal,
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "useminimal.com",
+        href: "https://useminimal.com/",
       },
     },
-    
+
+    {
+      title: "PictRNNary",
+      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      description:
+        "Minimalist calendars, habit trackers, and planners generator",
+      logo: Minimal,
+      link: {
+        label: "useminimal.com",
+        href: "https://useminimal.com/",
+      },
+    },
+
+
   ],
+  // achievements: [
+  //   {
+  //     company: "Lamini AI",
+  //     link: "https://film.io",
+  //     badges: [],
+  //     title: "Machine Learning Engineer",
+  //     logo: ConsultlyLogo,
+  //     start: "2024",
+  //     end: null,
+  //     description:
+  //       "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+  //   },
+  // ]
 } as const;
