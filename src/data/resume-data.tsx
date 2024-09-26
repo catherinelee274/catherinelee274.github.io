@@ -146,7 +146,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/catherinelee274/llava_alignment",
       },
     },
     {
@@ -219,7 +219,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://github.com/catherinelee274/virtual-try-on-team",
       },
     },
     {
@@ -230,7 +230,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://github.com/gits-lit/place.it/",
       },
     },
 
@@ -242,7 +242,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://github.com/ayushupneja/Bikeable",
       },
     },
     {
@@ -253,7 +253,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://github.com/DevinMui/pictionary",
       }
     },
     {
@@ -264,7 +264,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://github.com/catherinelee274/Machine-Learning-Reading-Group",
       }
     },
     {
@@ -275,7 +275,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://github.com/catherinelee274/fraud_detection",
       }
     },
     {
@@ -286,7 +286,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://github.com/catherinelee274/Barcelona-Prediction",
       }
     },
 
