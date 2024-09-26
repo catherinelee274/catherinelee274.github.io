@@ -21,17 +21,17 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Catherine Lee",
-  initials: "BJ",
+  initials: "CL",
   location: "United States",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  locationLink: "https://i.imgur.com/wWsBaUk.jpeg",
   about:
-    "ML Eng",
+    "Machine Learning Engineer & Software Engineer & Hobbyist Researcher",
   summary:
-    "ML stuff",
-  avatarUrl: "https://i.imgur.com/aHliVDV.jpeg",
+    "I am passionate about working across the software stack, with expertise in machine learning, distributed systems, and parallel computing. In addition to my technical work, I actively engage in research, dedicating my free time to studying the latest advancements in machine learning and contributing to open-source machine learning projects. On any given day, you'll likely find me fitting models on my RTX 3090, eventually resorting to cloud compute--all while wearing a shirt that showcases the Chinchilla Scaling Laws.",
+  avatarUrl: "https://i.imgur.com/wWsBaUk.jpeg",
   personalWebsiteUrl: "https://catherinelee274.github.io",
   contact: {
-    email: "bartosz.jarocki@hey.com",
+    email: "catherinelee274@yahoo.com",
     tel: "650-745-6064",
     social: [
       {
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Stanford University",
-      degree: "Master's Degree in Computer Science, Artificial Intelligence",
+      degree: "Artificial Intelligence Graduate Certificate",
       start: "2024",
       end: "Current",
     },
@@ -83,7 +83,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Software Engineer",
       logo: ParabolLogo,
-      start: "2021",
+      start: "2022",
       end: "2024",
       description:
         "YouTube Ads Creative Optimization. Technologies: React, TypeScript, GraphQL",
@@ -94,7 +94,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Software Engineer, Machine Learning Intern",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2021",
       end: "2021",
       description:
         "Vision Transformers",
@@ -114,7 +114,7 @@ export const RESUME_DATA = {
       company: "Amazon",
       link: "https://www.amazon.jobs/en/teams/product-imaging",
       badges: [],
-      title: "Software Engineer",
+      title: "Software Engineer Intern",
       logo: NSNLogo,
       start: "2019",
       end: "2019",
@@ -123,7 +123,6 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Tensorflow",
-    "CUDA",
     "Openai Triton",
     "Kubernetes",
     "Docker",
@@ -148,6 +147,23 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://parabol.co/",
+      },
+    },
+    {
+      title: "Llama in Triton",
+      techStack: [
+        "Lead Frontend Developer",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "GraphQL",
+      ],
+      description:
+        "Creative collaboration platform that combines video conferencing and HD media streaming",
+      logo: EvercastLogo,
+      link: {
+        label: "evercast.us",
+        href: "https://www.evercast.us/",
       },
     },
     {
@@ -197,7 +213,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Virtual Try On",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
       description:
         "Minimalist calendars, habit trackers, and planners generator",
       logo: Minimal,
@@ -208,7 +224,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Place.it",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
       description:
         "Minimalist calendars, habit trackers, and planners generator",
       logo: Minimal,
@@ -220,7 +236,7 @@ export const RESUME_DATA = {
 
     {
       title: "Bikeable",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
       description:
         "Minimalist calendars, habit trackers, and planners generator",
       logo: Minimal,
@@ -229,9 +245,30 @@ export const RESUME_DATA = {
         href: "https://useminimal.com/",
       },
     },
-
     {
       title: "PictRNNary",
+      techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
+      description:
+        "Minimalist calendars, habit trackers, and planners generator",
+      logo: Minimal,
+      link: {
+        label: "useminimal.com",
+        href: "https://useminimal.com/",
+      }
+    },
+    {
+      title: "Machine Learning Reading Group",
+      techStack: ["For Fun :P",],
+      description:
+        "Minimalist calendars, habit trackers, and planners generator",
+      logo: Minimal,
+      link: {
+        label: "useminimal.com",
+        href: "https://useminimal.com/",
+      }
+    },
+    {
+      title: "Fraud Detection",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
       description:
         "Minimalist calendars, habit trackers, and planners generator",
@@ -239,8 +276,20 @@ export const RESUME_DATA = {
       link: {
         label: "useminimal.com",
         href: "https://useminimal.com/",
-      },
+      }
     },
+    {
+      title: "Barcelona Prediction",
+      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      description:
+        "Minimalist calendars, habit trackers, and planners generator",
+      logo: Minimal,
+      link: {
+        label: "useminimal.com",
+        href: "https://useminimal.com/",
+      }
+    },
+
 
 
   ],
