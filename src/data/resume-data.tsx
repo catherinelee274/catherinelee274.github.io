@@ -133,7 +133,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "LLM Alignment",
+      title: "Diffusion LCM with DPO",
       techStack: [
         "Full Stack Developer",
         "TypeScript",
@@ -152,14 +152,14 @@ export const RESUME_DATA = {
     {
       title: "Llama in Triton",
       techStack: [
-        "Lead Frontend Developer",
+        "Open Source",
         "TypeScript",
         "React",
         "Node.js",
         "GraphQL",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Llama in Triton. In charge of softamx, argmax Triton implementation.",
       logo: EvercastLogo,
       link: {
         label: "evercast.us",
@@ -167,7 +167,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "VLM",
+      title: "VLM Alignment",
       techStack: [
         "Lead Frontend Developer",
         "TypeScript",
@@ -176,11 +176,11 @@ export const RESUME_DATA = {
         "GraphQL",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Vision Language Model Alignment",
       logo: EvercastLogo,
       link: {
         label: "evercast.us",
-        href: "https://www.evercast.us/",
+        href: "https://github.com/catherinelee274/llava_alignment",
       },
     },
     {
@@ -193,7 +193,7 @@ export const RESUME_DATA = {
         "GraphQL",
         "WebRTC",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Neurips LLM Merging Competition 2024",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
@@ -204,7 +204,7 @@ export const RESUME_DATA = {
       title: "VLM in Triton",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "Vision Language Model in Triton",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -215,7 +215,7 @@ export const RESUME_DATA = {
       title: "Virtual Try On",
       techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "Virtual Try On Application using Diffusion.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -226,7 +226,7 @@ export const RESUME_DATA = {
       title: "Place.it",
       techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "City Planning.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -238,7 +238,7 @@ export const RESUME_DATA = {
       title: "Bikeable",
       techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "Safe Boston Bike Routes using Mahcine Learning.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -249,7 +249,7 @@ export const RESUME_DATA = {
       title: "PictRNNary",
       techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "Pictionary using a Recurrent Neural Network to generate sketches.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -260,7 +260,7 @@ export const RESUME_DATA = {
       title: "Machine Learning Reading Group",
       techStack: ["For Fun :P",],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "I host a casual ML reading group with friends.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -271,7 +271,7 @@ export const RESUME_DATA = {
       title: "Fraud Detection",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "Predicting whether a user will download an app after clicking a mobile app advertisement.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -282,7 +282,7 @@ export const RESUME_DATA = {
       title: "Barcelona Prediction",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "Predicting accidents or air pollution with Barcelona dataset.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
