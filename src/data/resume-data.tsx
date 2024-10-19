@@ -68,7 +68,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Lamini AI",
-      link: "https://film.io",
+      link: "https://www.lamini.ai/",
       badges: [],
       title: "Machine Learning Engineer",
       logo: ConsultlyLogo,
@@ -79,7 +79,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Google",
-      link: "https://parabol.co",
+      link: "https://google.com",
       badges: [],
       title: "Software Engineer",
       logo: ParabolLogo,
@@ -183,37 +183,20 @@ export const RESUME_DATA = {
         href: "https://github.com/catherinelee274/llava_alignment",
       },
     },
-    {
-      title: "LLM Merging",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "Neurips LLM Merging Competition 2024",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "VLM in Triton",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Vision Language Model in Triton",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
+    // {
+    //   title: "VLM in Triton",
+    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
+    //   description:
+    //     "Vision Language Model in Triton",
+    //   logo: Minimal,
+    //   link: {
+    //     label: "useminimal.com",
+    //     href: "https://useminimal.com/",
+    //   },
+    // },
     {
       title: "Virtual Try On",
-      techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
+      techStack: ["🌟 Hackathon Winner", "Next.js", "Vercel"],
       description:
         "Virtual Try On Application using Diffusion.",
       logo: Minimal,
