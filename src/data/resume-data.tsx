@@ -108,7 +108,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2020",
       description:
-        "Explored multi-arm bandit algorithms for content recommendation (\href{https://huazhengwang.github.io/papers/SIGIR16_CoLin_Wu.pdf}{collaborative contextual bandits}) such as LinUCB for personalization and used GloVe embeddings for queries.",
+        "Explored multi-arm bandit algorithms for content recommendation ([collaborative contextual bandits](https://huazhengwang.github.io/papers/SIGIR16_CoLin_Wu.pdf)) such as LinUCB for personalization and used GloVe embeddings for queries.",
     },
     {
       company: "Amazon",
@@ -122,11 +122,10 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Tensorflow",
+    "Pytorch",
     "Openai Triton",
     "Kubernetes",
     "Docker",
-    "Pytorch",
     "PostgreSQL",
     "SQL",
     "C++",
@@ -142,7 +141,7 @@ export const RESUME_DATA = {
         "GraphQL",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "TODO",
       logo: ParabolLogo,
       link: {
         label: "github.com",
