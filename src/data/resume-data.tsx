@@ -67,6 +67,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Amazon",
+      link: "https://www.lamini.ai/",
+      badges: [],
+      title: "Software Engineer, Machine Learning",
+      logo: ConsultlyLogo,
+      start: "2025",
+      end: null,
+      description:
+        "Working on the software engineering and machine learning side at Amazon Prime Video Recommendations.",
+    },
+    {
       company: "Lamini AI",
       link: "https://www.lamini.ai/",
       badges: [],
