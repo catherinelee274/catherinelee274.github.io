@@ -217,7 +217,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Place.it",
-      techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
+      techStack: ["🌟 Hackathon Winner"],
       description:
         "City Planning.",
       logo: Minimal,
@@ -229,7 +229,7 @@ export const RESUME_DATA = {
 
     {
       title: "Bikeable",
-      techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
+      techStack: ["🌟 Hackathon Winner"],
       description:
         "Safe Boston Bike Routes using Mahcine Learning.",
       logo: Minimal,
@@ -240,7 +240,7 @@ export const RESUME_DATA = {
     },
     {
       title: "PictRNNary",
-      techStack: ["🌟 Hackathon Winner", "Next.js", "Puppeteer"],
+      techStack: ["🌟 Hackathon Winner"],
       description:
         "Pictionary using a Recurrent Neural Network to generate sketches.",
       logo: Minimal,
@@ -262,7 +262,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Fraud Detection",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      techStack: ["Side Project"],
       description:
         "Predicting whether a user will download an app after clicking a mobile app advertisement.",
       logo: Minimal,
@@ -273,7 +273,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Barcelona Prediction",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      techStack: ["Side Project"],
       description:
         "Predicting accidents or air pollution with Barcelona dataset.",
       logo: Minimal,
