@@ -1,0 +1,27 @@
+name: Run Next.js Development Server
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["v3_7_26_2024"]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  dev:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: yarn
+      
+      - name: Install dependencies
+        run: yarn install
+      
+      - name: Run development server
+        run: yarn dev
