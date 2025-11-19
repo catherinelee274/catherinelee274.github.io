@@ -23,11 +23,11 @@ export const RESUME_DATA = {
   name: "Catherine Lee",
   initials: "CL",
   location: "United States",
-  locationLink: "https://i.imgur.com/wWsBaUk.jpeg",
+  // locationLink: "https://i.imgur.com/wWsBaUk.jpeg",
   about:
     "Machine Learning Engineer & Software Engineer & Hobbyist Researcher",
   summary:
-    "I am passionate about working across the software stack, with expertise in machine learning, distributed systems, and parallel computing. In addition to my technical work, I actively engage in research, dedicating my free time to studying the latest advancements in machine learning and contributing to open-source machine learning projects. On any given day, you'll likely find me fitting models on my RTX 3090, eventually resorting to cloud compute--all while wearing a shirt that showcases the Chinchilla Scaling Laws.",
+    "I am passionate about working across the software stack, with expertise in machine learning and distributed systems. In addition to my technical work, I actively engage in research, dedicating my free time to studying the latest advancements in machine learning and contributing to open-source machine learning projects. On any given day, you'll likely find me fitting models on my RTX 3090, eventually resorting to cloud compute--all while wearing a shirt that showcases the Chinchilla Scaling Laws.",
   avatarUrl: "https://i.imgur.com/wWsBaUk.jpeg",
   personalWebsiteUrl: "https://catherinelee274.github.io",
   contact: {
@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       start: "2024",
       end: null,
       description:
-        "Building the LLM platform for engineers to use customized, private models for their data. Building the training and finetuning abilities underneath, for better performing models compared to general-purpose LLMs. Technologies: React, TypeScript, Node.js",
+        "Building the LLM platform for engineers to use customized, private models for their data. Building the training and finetuning abilities underneath, for better performing models compared to general-purpose LLMs.",
     },
     {
       company: "Google",
@@ -97,7 +97,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2024",
       description:
-        "YouTube Ads Creative Optimization. Technologies: React, TypeScript, GraphQL",
+        "YouTube Ads Creative Optimization.",
     },
     {
       company: "Snapchat",
@@ -145,11 +145,6 @@ export const RESUME_DATA = {
     {
       title: "Diffusion LCM with DPO",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
       ],
       description:
         "TODO",
@@ -179,11 +174,6 @@ export const RESUME_DATA = {
     {
       title: "VLM Alignment",
       techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
       ],
       description:
         "Vision Language Model Alignment",
@@ -206,7 +196,7 @@ export const RESUME_DATA = {
     // },
     {
       title: "Virtual Try On",
-      techStack: ["🌟 Hackathon Winner", "Next.js", "Vercel"],
+      techStack: ["🌟 Hackathon Winner"],
       description:
         "Virtual Try On Application using Diffusion.",
       logo: Minimal,
