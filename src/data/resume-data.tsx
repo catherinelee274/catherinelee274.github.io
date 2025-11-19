@@ -84,7 +84,7 @@ export const RESUME_DATA = {
       title: "Machine Learning Engineer",
       logo: ConsultlyLogo,
       start: "2024",
-      end: null,
+      end: 2024,
       description:
         "Building the LLM platform for engineers to use customized, private models for their data. Building the training and finetuning abilities underneath, for better performing models compared to general-purpose LLMs.",
     },
