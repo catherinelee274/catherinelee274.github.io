@@ -108,7 +108,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2021",
       description:
-        "Vision Transformers",
+        "Vision Transformers on the Perception team.",
     },
     {
       company: "Adobe",
