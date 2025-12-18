@@ -23,7 +23,7 @@ export const RESUME_DATA = {
   name: "Catherine Lee",
   initials: "CL",
   location: "United States",
-  // locationLink: "https://i.imgur.com/wWsBaUk.jpeg",
+  locationLink: "https://i.imgur.com/wWsBaUk.jpeg",
   about:
     "Machine Learning Engineer & Software Engineer & Hobbyist Researcher",
   summary:
@@ -63,6 +63,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Computer Science",
       start: "2019",
       end: "2022",
+      // description: "test"
     },
   ],
   work: [
@@ -129,7 +130,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "2019",
       end: "2019",
-      description: "Built fullstack application in Java using microservices, API Gateway, AWS Lambda, Kinesis, Cloudformation, DynamoDB, S3, CQRS, Event Sourcing, and Dependency Injection.",
+      description: "Built fullstack application in Java using microservices, API Gateway, AWS Lambda, Kinesis, Cloudformation, DynamoDB, S3, CQRS, Event Sourcing, and Dependency Injection. Created a reactive dashboard to monitor the statuses of individual contract workflows with Javascript (SvelteJS).",
     },
   ],
   skills: [
@@ -158,10 +159,7 @@ export const RESUME_DATA = {
       title: "Llama in Triton",
       techStack: [
         "Open Source",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Triton",
       ],
       description:
         "Llama in Triton. In charge of softamx, argmax Triton implementation.",
@@ -276,17 +274,17 @@ export const RESUME_DATA = {
 
 
   ],
-  // achievements: [
-  //   {
-  //     company: "Lamini AI",
-  //     link: "https://film.io",
-  //     badges: [],
-  //     title: "Machine Learning Engineer",
-  //     logo: ConsultlyLogo,
-  //     start: "2024",
-  //     end: null,
-  //     description:
-  //       "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
-  //   },
-  // ]
+  achievements: [
+    {
+      company: "Lamini AI",
+      link: "https://film.io",
+      badges: [],
+      title: "Machine Learning Engineer",
+      logo: ConsultlyLogo,
+      start: "2024",
+      end: null,
+      description:
+        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+    },
+  ]
 } as const;
