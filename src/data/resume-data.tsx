@@ -152,7 +152,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://github.com/catherinelee274/llava_alignment",
+        href: "https://github.com/catherinelee274/Diffusion-Benchmarking",
       },
     },
     {
