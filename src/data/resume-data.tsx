@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       company: "Amazon",
       link: "https://www.lamini.ai/",
       badges: [],
-      title: "Software Engineer, Machine Learning",
+      title: "Machine Learning Engineer",
       logo: ConsultlyLogo,
       start: "2025",
       end: null,
@@ -165,7 +165,7 @@ export const RESUME_DATA = {
         "Llama in Triton. In charge of softamx, argmax Triton implementation.",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
+        label: "GPU Mode Hackathon",
         href: "https://www.evercast.us/",
       },
     },
