@@ -69,7 +69,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Amazon",
-      link: "https://www.lamini.ai/",
+      link: "https://www.amazon.com/",
       badges: [],
       title: "Machine Learning Engineer",
       logo: ConsultlyLogo,
@@ -102,7 +102,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Snapchat",
-      link: "https://clevertech.biz",
+      link: "https://www.snap.com/",
       badges: [],
       title: "Software Engineer, Machine Learning Intern",
       logo: ClevertechLogo,
@@ -113,7 +113,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Adobe",
-      link: "https://bsgroup.eu/",
+      link: "https://www.adobe.com/",
       badges: [],
       title: "Machine Learning Intern",
       logo: JojoMobileLogo,
@@ -162,7 +162,7 @@ export const RESUME_DATA = {
         "Triton",
       ],
       description:
-        "Llama in Triton. In charge of softamx, argmax Triton implementation.",
+        "Llama in Triton. In charge of softmax, argmax Triton implementation.",
       logo: EvercastLogo,
       link: {
         label: "GPU Mode Hackathon",
@@ -219,7 +219,7 @@ export const RESUME_DATA = {
       title: "Bikeable",
       techStack: ["🌟 Hackathon Winner"],
       description:
-        "Safe Boston Bike Routes using Mahcine Learning.",
+        "Safe Boston Bike Routes using Machine Learning.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
