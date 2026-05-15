@@ -146,9 +146,12 @@ export const RESUME_DATA = {
     {
       title: "Diffusion LCM with DPO",
       techStack: [
+        "Side Project",
+        "Diffusion",
+        "DPO",
       ],
       description:
-        "TODO",
+        "Latent Consistency Model for diffusion fine-tuned with Direct Preference Optimization.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
@@ -165,8 +168,8 @@ export const RESUME_DATA = {
         "Llama in Triton. In charge of softmax, argmax Triton implementation.",
       logo: EvercastLogo,
       link: {
-        label: "GPU Mode Hackathon",
-        href: "https://www.evercast.us/",
+        label: "github.com",
+        href: "https://github.com/catherinelee274",
       },
     },
     {
@@ -177,7 +180,7 @@ export const RESUME_DATA = {
         "Vision Language Model Alignment",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
+        label: "github.com",
         href: "https://github.com/catherinelee274/llava_alignment",
       },
     },
@@ -199,7 +202,7 @@ export const RESUME_DATA = {
         "Virtual Try On Application using Diffusion.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "github.com",
         href: "https://github.com/catherinelee274/virtual-try-on-team",
       },
     },
@@ -210,7 +213,7 @@ export const RESUME_DATA = {
         "City Planning.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "github.com",
         href: "https://github.com/gits-lit/place.it/",
       },
     },
@@ -222,7 +225,7 @@ export const RESUME_DATA = {
         "Safe Boston Bike Routes using Machine Learning.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "github.com",
         href: "https://github.com/ayushupneja/Bikeable",
       },
     },
@@ -233,7 +236,7 @@ export const RESUME_DATA = {
         "Pictionary using a Recurrent Neural Network to generate sketches.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "github.com",
         href: "https://github.com/DevinMui/pictionary",
       }
     },
@@ -244,7 +247,7 @@ export const RESUME_DATA = {
         "I host a casual ML reading group with friends.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "github.com",
         href: "https://github.com/catherinelee274/Machine-Learning-Reading-Group",
       }
     },
@@ -255,7 +258,7 @@ export const RESUME_DATA = {
         "Predicting whether a user will download an app after clicking a mobile app advertisement.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "github.com",
         href: "https://github.com/catherinelee274/fraud_detection",
       }
     },
@@ -266,7 +269,7 @@ export const RESUME_DATA = {
         "Predicting accidents or air pollution with Barcelona dataset.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
+        label: "github.com",
         href: "https://github.com/catherinelee274/Barcelona-Prediction",
       }
     },
@@ -274,17 +277,5 @@ export const RESUME_DATA = {
 
 
   ],
-  achievements: [
-    {
-      company: "Lamini AI",
-      link: "https://film.io",
-      badges: [],
-      title: "Machine Learning Engineer",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
-    },
-  ]
+  achievements: []
 } as const;
