@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,6 +28,7 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body>{children}</body>
       <Analytics />
+      {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
     </html>
   );
 }
