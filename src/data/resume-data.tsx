@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       start: "2025",
       end: null,
       description:
-        "Working on the software engineering and machine learning side at Amazon Prime Video Recommendations.",
+        "Working on the software engineering and machine learning side for Recommendation Systems at Amazon Prime Video Personalization and Disvoery.",
     },
     {
       company: "Lamini AI",
