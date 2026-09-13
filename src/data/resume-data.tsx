@@ -151,7 +151,7 @@ export const RESUME_DATA = {
         "DPO",
       ],
       description:
-        "Latent Consistency Model for diffusion fine-tuned with Direct Preference Optimization.",
+        "Latent Consistency Model fine-tuned with Direct Preference Optimization, plus benchmarks comparing sample quality against the base diffusion model at matched step counts.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
@@ -165,11 +165,11 @@ export const RESUME_DATA = {
         "Triton",
       ],
       description:
-        "Llama in Triton. In charge of softmax, argmax Triton implementation.",
+        "Open-source port of Llama inference to OpenAI Triton kernels. Wrote and tuned the softmax and argmax implementations.",
       logo: EvercastLogo,
       link: {
         label: "github.com",
-        href: "https://github.com/catherinelee274",
+        href: "https://github.com/kernels",
       },
     },
     {
@@ -177,7 +177,7 @@ export const RESUME_DATA = {
       techStack: [
       ],
       description:
-        "Vision Language Model Alignment",
+        "Alignment experiments on LLaVA, exploring how preference tuning shifts a vision-language model's responses.",
       logo: EvercastLogo,
       link: {
         label: "github.com",
@@ -199,7 +199,7 @@ export const RESUME_DATA = {
       title: "Virtual Try On",
       techStack: ["🌟 Hackathon Winner"],
       description:
-        "Virtual Try On Application using Diffusion.",
+        "Diffusion-based app that renders a garment onto a person's photo from a single reference image.",
       logo: Minimal,
       link: {
         label: "github.com",
@@ -210,7 +210,7 @@ export const RESUME_DATA = {
       title: "Place.it",
       techStack: ["🌟 Hackathon Winner"],
       description:
-        "City Planning.",
+        "City planning tool for sketching proposed urban changes and visualizing them on a map before they're built.",
       logo: Minimal,
       link: {
         label: "github.com",
@@ -222,7 +222,7 @@ export const RESUME_DATA = {
       title: "Bikeable",
       techStack: ["🌟 Hackathon Winner"],
       description:
-        "Safe Boston Bike Routes using Machine Learning.",
+        "Scores Boston bike routes by safety, learning from crash and street data to steer riders toward safer paths.",
       logo: Minimal,
       link: {
         label: "github.com",
@@ -233,7 +233,7 @@ export const RESUME_DATA = {
       title: "PictRNNary",
       techStack: ["🌟 Hackathon Winner"],
       description:
-        "Pictionary using a Recurrent Neural Network to generate sketches.",
+        "Multiplayer Pictionary where a recurrent network draws the sketches players race to guess.",
       logo: Minimal,
       link: {
         label: "github.com",
@@ -244,7 +244,7 @@ export const RESUME_DATA = {
       title: "Machine Learning Reading Group",
       techStack: ["For Fun :P",],
       description:
-        "I host a casual ML reading group with friends.",
+        "A casual reading group I host, working through recent machine learning papers with friends.",
       logo: Minimal,
       link: {
         label: "github.com",
@@ -255,7 +255,7 @@ export const RESUME_DATA = {
       title: "Fraud Detection",
       techStack: ["Side Project"],
       description:
-        "Predicting whether a user will download an app after clicking a mobile app advertisement.",
+        "Click-fraud model predicting whether a mobile ad click leads to a real app download, trained on a heavily imbalanced dataset.",
       logo: Minimal,
       link: {
         label: "github.com",
@@ -266,7 +266,7 @@ export const RESUME_DATA = {
       title: "Barcelona Prediction",
       techStack: ["Side Project"],
       description:
-        "Predicting accidents or air pollution with Barcelona dataset.",
+        "Models built on Barcelona's open city data to forecast traffic accidents and air pollution levels.",
       logo: Minimal,
       link: {
         label: "github.com",
