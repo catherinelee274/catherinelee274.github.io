@@ -18,4 +18,13 @@ const apolloServer = new ApolloServer({
 const handler = startServerAndCreateNextHandler<NextRequest>(apolloServer, {
   context: async (req) => ({ req }),
 });
-export { handler as GET, handler as POST };
+
+// Wrap the Apollo handler instead of re-exporting it: its overloads declare a
+// second `res` param, which Next's route type validator rejects.
+export async function GET(request: NextRequest): Promise<Response> {
+  return handler(request);
+}
+
+export async function POST(request: NextRequest): Promise<Response> {
+  return handler(request);
+}
