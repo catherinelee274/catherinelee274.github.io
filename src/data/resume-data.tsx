@@ -134,6 +134,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "LLM Post-training",
     "Pytorch",
     "Openai Triton",
     "Kubernetes",
