@@ -145,6 +145,20 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Multilingual Safety Representations",
+      techStack: [
+        "Cohere Labs",
+        "Interpretability",
+      ],
+      description:
+        "Mechanistic study of how safety representations form across TinyAya's base, global, and regional variants in six languages, using linear probes and sparse autoencoders on decoder activations.",
+      logo: ParabolLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/catherinelee274/cohere-safety-representations",
+      },
+    },
+    {
       title: "Diffusion LCM with DPO",
       techStack: [
         "Side Project",
@@ -162,27 +176,31 @@ export const RESUME_DATA = {
     {
       title: "Llama in Triton",
       techStack: [
+        "GPU MODE Hackathon",
         "Open Source",
         "Triton",
       ],
       description:
-        "Open-source port of Llama inference to OpenAI Triton kernels. Wrote and tuned the softmax and argmax implementations.",
+        "Contributed the softmax and argmax Triton kernels upstream to triton-lang/kernels, and wired them into Llama's generation path.",
       logo: EvercastLogo,
       link: {
         label: "github.com",
-        href: "https://github.com/kernels",
+        href: "https://github.com/triton-lang/kernels",
       },
     },
     {
       title: "VLM Alignment",
       techStack: [
+        "Side Project",
+        "VLM",
+        "Alignment",
       ],
       description:
-        "Alignment experiments on LLaVA, exploring how preference tuning shifts a vision-language model's responses.",
+        "Fine-tuning LLaVA with preference alignment to study how a reward signal reshapes a vision-language model's responses.",
       logo: EvercastLogo,
       link: {
         label: "github.com",
-        href: "https://github.com/catherinelee274/llava_alignment",
+        href: "https://github.com/catherinelee274/llava-alignment",
       },
     },
     // {
